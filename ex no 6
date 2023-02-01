@@ -1,0 +1,60 @@
+1.python program to check the input string is palindrome:
+Program:
+string=input("enter a string")
+if(string==string[::-1]):
+              print("the string is palindrome")
+else:
+              print("the string is not palindrome")
+   
+
+      output:
+enter a string: madam
+the string is palindrome
+
+2.reverse the string:
+Program:
+def reverse(str):
+              str=str[::-1]
+              return str
+s=input("enter a string")
+print("the original string:",s)
+print("the reversed string:",reverse(s))
+output:
+enter a stringadharshana
+the original string: adharshana
+the reversed string: anahsrahda
+3.length of a string:
+s=input("enter a string")
+print(s)
+number=0
+for i in s:
+              number+=1
+print("the length of the string",number)
+output:
+enter a string:priyanka
+priyanka
+the length of the string 8
+
+
+
+program:
+print("enter the string:")
+str=input() 
+print("Enter a character:") 
+char=input() 
+newstr=""
+for i in range(len(str)):
+               if(str[i]=='a' or str[i]=='e' or str[i]=='i' or str[i]=='o' or str[i]=='u'):
+                             newstr = newstr + char
+               else:
+                             newstr = newstr + str[i] 
+print("\nOriginal String:", str)
+print("New String:", newstr)
+output:
+enter the string:
+engineering
+Enter a character:
+@
+Original String: engineering
+New String: @ng@n@@r@ng
+
